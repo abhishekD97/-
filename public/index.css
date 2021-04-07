@@ -1,0 +1,13 @@
+.container > div > ul > li > a
+{
+    color: #fff !important;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border-top: .1rem solid rgba(255,255,255,0);
+}
+
+.container > div > ul > li > a:active, .container > div > ul > li > a:focus 
+{
+    border-top: .1rem solid orange;
+}
