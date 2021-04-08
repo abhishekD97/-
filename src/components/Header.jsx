@@ -3,9 +3,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 function Header(){
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark navbar-fixed-top">
   <div className="container mx-2 my-2">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand text-light" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <MenuIcon style={{ fontSize: 25, padding:"0px" }}/>
     </button>
@@ -14,13 +14,13 @@ function Header(){
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item ml-2">
           <a className="nav-link" href="#">Link 1</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item ml-2">
           <a className="nav-link" href="#">Link 2</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item ml-2">
           <a className="nav-link" href="#">Link 3</a>
         </li>
       </ul>

@@ -1,3 +1,11 @@
+html, body
+{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif !important;
+}
+
 .container > div > ul > li > a
 {
     color: #fff !important;
@@ -11,3 +19,64 @@
 {
     border-top: .1rem solid orange;
 }
+
+/* Section 1 */
+.section1
+{
+    position: relative;
+    background-image: linear-gradient(120deg,rgba(255,255,255,0.9) 50%, transparent 50%),url(https://w.wallhaven.cc/full/ne/wallhaven-nex36l.png);
+    background-size: cover;
+    background-position:center;
+    height: 90vh;
+}
+
+.section1 > .data-intro
+{
+    text-transform: uppercase;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2rem auto;
+    grid-template-rows: 3rem 3rem;
+    align-content: center;
+}
+
+.intro-line-1
+{
+    grid-column: 2/-1;
+}
+
+.section1 > .data-intro > h1
+{
+    display: inline-block;
+    font-size: 2rem !important;
+    color: orange;
+}
+
+.typed-text
+{
+    font-size: 1.5rem !important;
+    grid-column: 2/-1;
+}
+
+.tsparticles-canvas-el
+{
+    z-index: 1;
+}
+
+.navbar
+{   
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+.section1 > .data-intro > h1
+    {
+        font-size: 1.4rem !important;
+        align-self:initial;
+    }
+    .section1 > .data-intro > .typed-text
+    {
+        font-size: 1rem !important;
+    }
+    
+  }
