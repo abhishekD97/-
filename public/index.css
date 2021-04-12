@@ -2,7 +2,6 @@ html, body
 {
     margin: 0;
     height: 100vh;
-    width: 100vw;
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -68,6 +67,51 @@ html, body
     z-index: 1;
 }
 
+.contain
+{
+    display: grid;
+    height: 100%;
+    width: auto;
+    grid-gap: 10px;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+                            "p p p p c c c c c c c"
+                            "p p p p c c c c c c c";
+}
+
+.contain > .imageSection
+{
+    grid-area: p;
+    align-self: center;
+    text-align:center;
+}
+
+.contain > .imageSection > .profile_picture
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: .3rem;
+    border: 1px solid orange;
+}
+
+.contain > .about-me-info
+{
+    grid-area: c;
+    align-self: center;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight:600;
+    font-size: 1rem !important; 
+}
+
+.contain > .about-me-info > .aboutmeHeader
+{
+    text-transform: uppercase;
+    color: orange;
+}
+
 @media only screen and (max-width: 600px) {
 .section1 > .data-intro > h1
     {
@@ -78,5 +122,24 @@ html, body
     {
         font-size: 1rem !important;
     }
-    
+    .contain
+    {
+    display: grid;
+    height: 100%;
+    width: auto;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 60vh;
+    grid-template-areas: 
+                            "p p p p p p"
+                            "c c c c c c";
+    }
+    .contain > .about-me-info > .aboutmeHeader
+    {
+    text-align: center;
+    }
+    .contain > .about-me-info > p
+    {
+        text-align: center;
+    }
   }

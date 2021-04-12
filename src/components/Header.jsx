@@ -3,8 +3,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 function Header(){
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark navbar-fixed-top">
-  <div className="container mx-2 my-2">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+  <div className="container mx-1 my-1">
     <a className="navbar-brand text-light" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <MenuIcon style={{ fontSize: 25, padding:"0px" }}/>
