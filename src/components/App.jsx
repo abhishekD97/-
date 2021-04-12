@@ -39,6 +39,7 @@ function App() {
       <About/>
       <Services/>
       <Education/>
+      
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Services(){
                 <div className="servicesHeader py-4">
                     <h1>My Services</h1>
                 </div>
-                <div className="services py-2 px-4">
+                <div className="services py-5 px-4">
                     <div className="webDesign">
                         <div className="circle"><WebIcon className="icon" style={{ fontSize: 30 }}/></div>
                         <h3>Web Design</h3>

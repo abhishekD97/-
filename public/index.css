@@ -10,14 +10,16 @@ html, body
     cursor: pointer;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
-    border-top: .1rem solid rgba(255,255,255,0);
+    border-top: .2rem solid rgba(255,255,255,0);
     font-size: 1rem;
     font-weight: 600;
+    padding: 0;
+    color: rgba(29, 29, 29, 0.747) !important;
 }
 
 .container-fluid > div > ul > li > a:active, .container-fluid > div > ul > li > a:focus 
 {
-    border-top: .1rem solid white;
+    border-top: .2rem solid white;
 }
 
 nav
@@ -158,6 +160,7 @@ nav
 .services > div > p
 {
     font-size: 1rem;
+    column-span: all;
 }
 
 .circle
@@ -310,5 +313,7 @@ nav
     .contain > .about-me-info > p
     {
         text-align: center;
+        font-size: 0.9rem;
+        column-span: all;
     }
   }
