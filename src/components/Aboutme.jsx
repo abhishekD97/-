@@ -4,7 +4,7 @@ import pic from "../images/IMG_2036.jpg"
 function About(){
     return (
         <div>
-            <div className="contain">
+            <div className="contain px-5">
                 <div className="imageSection">
                     <img className="profile_picture" src={pic}/>
                 </div>

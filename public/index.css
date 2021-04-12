@@ -5,18 +5,25 @@ html, body
     font-family: 'Roboto', sans-serif !important;
 }
 
-.container > div > ul > li > a
+.container-fluid > div > ul > li > a
 {
-    color: #fff !important;
     cursor: pointer;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
     border-top: .1rem solid rgba(255,255,255,0);
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-.container > div > ul > li > a:active, .container > div > ul > li > a:focus 
+.container-fluid > div > ul > li > a:active, .container-fluid > div > ul > li > a:focus 
 {
-    border-top: .1rem solid orange;
+    border-top: .1rem solid white;
+}
+
+nav
+{
+    position: absolute !important; 
+    display: none;
 }
 
 /* Section 1 */
@@ -26,7 +33,7 @@ html, body
     background-image: linear-gradient(120deg,rgba(255,255,255,0.9) 50%, transparent 50%),url(https://w.wallhaven.cc/full/ne/wallhaven-nex36l.png);
     background-size: cover;
     background-position:center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .section1 > .data-intro

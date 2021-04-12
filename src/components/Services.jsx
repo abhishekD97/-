@@ -11,7 +11,7 @@ function Services(){
                 <div className="servicesHeader py-4">
                     <h1>My Services</h1>
                 </div>
-                <div className="services py-2">
+                <div className="services py-2 px-4">
                     <div className="webDesign">
                         <div className="circle"><WebIcon className="icon" style={{ fontSize: 30 }}/></div>
                         <h3>Web Design</h3>
@@ -19,17 +19,17 @@ function Services(){
                     </div>
                     <div className="backEnd">
                         <div className="circle"><SettingsIcon className="icon" style={{ fontSize: 30 }}/></div>
-                        <h3>Web Design</h3>
+                        <h3>Back-End</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat, nunc at sollicitudin scelerisque.</p>
                     </div>
                     <div className="database">
                         <div className="circle"><StorageIcon className="icon" style={{ fontSize: 30 }}/></div>
-                        <h3>Web Design</h3>
+                        <h3>Data Base</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat, nunc at sollicitudin scelerisque.</p>
                     </div>
                     <div className="fullStack">
                         <div className="circle"><HorizontalSplitIcon className="icon" style={{ fontSize: 30 }}/></div>
-                        <h3>Web Design</h3>
+                        <h3>Full-Stack</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat, nunc at sollicitudin scelerisque.</p>
                     </div>
                 </div>
