@@ -4,6 +4,7 @@ import Section1 from "./Section1";
 import About from "./Aboutme";
 import Services from "./Services";
 import Education from "./Education";
+import Projects from "./Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from 'react-particles-js';
 
@@ -39,7 +40,7 @@ function App() {
       <About/>
       <Services/>
       <Education/>
-      
+      <Projects/>
     </div>
   );
 }

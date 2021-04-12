@@ -99,8 +99,8 @@ nav
 .contain > .imageSection > .profile_picture
 {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     padding: .3rem;
     border: 1px solid orange;
 }
@@ -110,7 +110,6 @@ nav
     grid-area: c;
     align-self: center;
     padding: 4px;
-    font-family: 'Roboto', sans-serif !important;
     font-weight:600;
     font-size: 1rem !important; 
 }
@@ -257,6 +256,93 @@ nav
     margin-top: 0.3125rem;
     color: rgb(0, 0, 0);
     font-weight: 900;
+}
+
+/* Projects */
+
+.mainProjectsContain
+{
+    display: grid;
+    background: rgb(218, 218, 218);
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+                        "a a a a a a a a a a a a"
+                        "b b b b b b b b b b b b";
+}
+
+.mainProjectsContain > div:first-child
+{
+    text-align: center;
+    grid-area: a;
+    color: black;
+}
+
+.mainProjectsContain > div:last-child
+{
+    grid-area: b;
+}
+
+.projectsContainer
+{
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.projectsContainer > div
+{
+    display: flex;
+    width: 16rem;
+    height: 16rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.625rem;
+    flex: 1 1 auto;
+    opacity: 0.5;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Concert One', cursive;
+    font-weight: 800;
+}
+
+.projectsContainer > div:hover
+{
+    opacity: 1;
+}
+
+.projectsContainer > div:first-child
+{
+    
+    background: blanchedalmond;
+}
+
+.projectsContainer > div:nth-child(2)
+{
+    
+    background: rgb(240, 175, 78);
+}
+
+.projectsContainer > div:nth-child(3)
+{
+    
+    background: rgb(56, 53, 49);
+}
+
+.projectsContainer > div:nth-child(4)
+{
+    
+    background: rgb(80, 64, 44);
+}
+
+.projectsContainer > div > .projectsImage
+{
+    height: 12.5rem;
+    width: 12.5rem;
 }
 
 @media(max-width:768px) 
