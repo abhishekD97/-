@@ -3,6 +3,7 @@ import Header from "./Header";
 import Section1 from "./Section1";
 import About from "./Aboutme";
 import Services from "./Services";
+import Education from "./Education";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from 'react-particles-js';
 
@@ -37,6 +38,7 @@ function App() {
       <Section1/>
       <About/>
       <Services/>
+      <Education/>
     </div>
   );
 }
