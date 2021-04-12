@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Section1 from "./Section1";
 import About from "./Aboutme";
+import Services from "./Services";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from 'react-particles-js';
 
@@ -35,6 +36,7 @@ function App() {
       <Header/>
       <Section1/>
       <About/>
+      <Services/>
     </div>
   );
 }
